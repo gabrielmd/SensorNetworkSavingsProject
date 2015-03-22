@@ -823,7 +823,7 @@ general information about the environment:</p>
 <section data-transition="default" data-transition-speed="default">
 <h3>Data</h3>
 <div class="slideContent" >
-<p>Part of the data, which contains measurements about different from several sensors:</p>
+<p>Part of the data, which contains several types of measurements from different sensors:</p>
 
 <pre><code class="r">print(xtable(wsn.data[idx, ]), type=&quot;html&quot;)
 </code></pre>
@@ -872,7 +872,7 @@ However, sensors placed far from each other (1,50) measure completely different 
 <ul>
 <li>Observing the data from one day, we build a prediction model using Random Forest. 
 Then, we observe if the model is able to predict the temperature measurements of another day.
-Each predicted measurement cannot differ by more than a certain value (defined by the user).</li>
+Each predicted measurement cannot differ by more than a certain value, which is defined by the user.</li>
 </ul>
 
 </div>

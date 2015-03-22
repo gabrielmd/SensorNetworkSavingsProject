@@ -30,7 +30,7 @@ general information about the environment:
 Data
 ========================================================
 
-Part of the data, which contains measurements about different from several sensors:
+Part of the data, which contains several types of measurements from different sensors:
 
 
 
@@ -74,4 +74,4 @@ Problem Statement
 
 - Observing the data from one day, we build a prediction model using Random Forest. 
 Then, we observe if the model is able to predict the temperature measurements of another day.
-Each predicted measurement cannot differ by more than a certain value (defined by the user).
+Each predicted measurement cannot differ by more than a certain value, which is defined by the user.
