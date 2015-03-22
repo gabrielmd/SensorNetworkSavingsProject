@@ -1,0 +1,8 @@
+#plotPredictions, #boxContent{
+	background: url("loading.gif") #fff center 40px no-repeat;
+	min-height:80px;
+}
+
+#tabSetPanelUI{
+	background-color:#fff;
+}
